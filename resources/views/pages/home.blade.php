@@ -39,7 +39,7 @@
         <div class="jumbotron">
             <h2>Selamat Datang!</h2>
             <p>Selamat datang di website <a href="#" class="link-jumbotron"><b>Penerimaan Siswa Baru (PSB) Online SD Anugerah.</b></a> Sebelum melakukan pendaftaran, sebaiknya Anda menyimak prosedur pendaftaran santri baru di halaman <a href="#" class="link-jumbotron"><b> Prosedur Pendaftaran.</b></a></p>
-            <p>Pastikan juga Anda mengetahui jadwal PSB di halaman <a href="#" class="link-jumbotron"><b>Jadwal</b></a>. Semua informasi terbaru mengenai PSB Online Pesantren Imam Syafi'i bisa Anda lihat di halaman <a href="#" class="link-jumbotron"><b> Pengumuman.</b></a></p>
+            <p>Pastikan juga Anda mengetahui jadwal PSB di halaman <a href="#" class="link-jumbotron"><b>Jadwal</b></a>. Semua informasi terbaru mengenai PSB Online SD Anugerah bisa Anda lihat di halaman <a href="#" class="link-jumbotron"><b> Pengumuman.</b></a></p>
             <p>Anda juga dapat melihat data pendaftar di SD Anugerah di halaman <a href="#" class="link-jumbotron"><b> Peserta.</b></a></p>
             <p>Apabila Anda sudah memahami prosedur pendaftaran, silahkan klik tombol <a href="#" class="link-jumbotron"><b>"Daftar"</b></a> di bawah ini.</p>
             <button class="btn btn-primary">Daftar</button>
