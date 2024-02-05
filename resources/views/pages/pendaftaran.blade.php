@@ -31,7 +31,7 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Tempat Lahir</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" required name="alamat_rumah" placeholder="Masukkan Tempat Lahir*">
+                            <input type="text" class="form-control" required name="tempat_lahir" placeholder="Masukkan Tempat Lahir*">
                         </div>
                     </div>
 
@@ -69,14 +69,14 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Tinggi Badan</label>
                         <div class="col-sm-10">
-                            <input type="number" class="form-control" required name="email" placeholder="Masukkan Tinggi Badan (CM)*">
+                            <input type="number" class="form-control" required name="tinggi_badan" placeholder="Masukkan Tinggi Badan (CM)*">
                         </div>
                     </div>
     
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Berat Badan</label>
                         <div class="col-sm-10">
-                            <input type="number" class="form-control" name="asal_sekolah" placeholder="Masukkan Berat Badan (KG)">
+                            <input type="number" class="form-control" name="berat_badan" placeholder="Masukkan Berat Badan (KG)">
                         </div>
                     </div>
 

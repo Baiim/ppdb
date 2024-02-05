@@ -19,16 +19,16 @@ class CreatePendaftaranTable extends Migration
             $table->text('alamat_rumah');
             $table->string('nomor_telepon');
             $table->date('tanggal_lahir');
+            $table->string('tempat_lahir');
             $table->string('jenis_kelamin');
             $table->string('nama_orang_tua');
-            $table->string('email');
-            $table->string('asal_sekolah')->nullable();
+            $table->string('berat_badan');
+            $table->string('tinggi_badan');
             $table->string('foto')->nullable();
             $table->boolean('is_verified')->default(false);
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *

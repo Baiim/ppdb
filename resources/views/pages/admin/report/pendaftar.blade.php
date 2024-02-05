@@ -38,13 +38,15 @@
         <thead>
             <tr>
                 <th>NO</th>
-                <th>Nama</th>
-                <th>Alamat</th>
-                <th>Nomor Telepon</th>
-                <th>Tanggal Lahir</th>
-                <th>Jenis Kelamin</th>
+                <th>Nama Calon Siswa</th>
+                <th>Alamat Rumah</th>
                 <th>Nama Orang Tua</th>
-                <th>Asal Sekolah</th>
+                <th>Nomor Telepon Orang Tua</th>
+                <th>Tanggal Lahir</th>
+                <th>Tempat Lahir</th>
+                <th>Jenis Kelamin</th>
+                <th>Berat Badan</th>
+                <th>Tinggi Badan</th>
                 <th>Status Verifikasi</th>
             </tr>
         </thead>
@@ -54,11 +56,13 @@
                 <td>{{ $index + 1 }}</td>
                 <td>{{$item->nama_lengkap_murid}}</td>
                 <td>{{$item->alamat_rumah}}</td>
+                <td>{{$item->nama_orang_tua}}</td>
                 <td>{{$item->nomor_telepon}}</td>
                 <td>{{$item->tanggal_lahir}}</td>
+                <td>{{$item->tempat_lahir}}</td>
                 <td>{{$item->jenis_kelamin}}</td>
-                <td>{{$item->nama_orang_tua}}</td>
-                <td>{{$item->asal_sekolah}}</td>
+                <td>{{$item->berat_badan}} KG</td>
+                <td>{{$item->tinggi_badan}} CM</td>
                 <td>
                     @if($item->is_verified === 1)
                         <span class="verified">Sudah Diverifikasi</span>

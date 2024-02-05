@@ -8,16 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Pendaftaran extends Model
 {
     protected $fillable = [
-        'nisn_murid',
         'nama_lengkap_murid',
         'alamat_rumah',
         'nomor_telepon',
         'tanggal_lahir',
+        'tempat_lahir',
         'jenis_kelamin',
         'nama_orang_tua',
-        'email',
-        'asal_sekolah',
-        'kelas_diikuti',
+        'tinggi_badan',
+        'berat_badan',
         'foto',
         'is_verified',
     ];

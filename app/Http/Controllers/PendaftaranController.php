@@ -26,22 +26,7 @@ class PendaftaranController extends Controller
     }
     public function store(Request $request)
         {
-            $validatedData = $request->validate([
-                'nama_lengkap_murid' => 'required|string',
-                'alamat_rumah' => 'required|string',
-                'nomor_telepon' => 'required|string',
-                'tanggal_lahir' => 'required|date',
-                'jenis_kelamin' => 'required|in:Laki-laki,Perempuan',
-                'nama_orang_tua' => 'required|string',
-                'email' => 'required|email',
-                'asal_sekolah' => 'nullable|string',
-                'foto' => 'nullable|image|mimes:jpeg,png,jpg|max:5120',
-            ]);
-
-            $validatedData['is_verified'] = false;
-    
-            // Simpan data ke dalam database
-            Pendaftaran::create($validatedData);
+            $pendaftaran = Pendaftaran::create($request->all());;
 
             return redirect()->route('success');
         }
