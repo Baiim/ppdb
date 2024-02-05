@@ -15,9 +15,9 @@
     
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">Nama Lengkap Murid</label>
+                        <label class="col-sm-2 control-label">Nama Lengkap Calon Siswa</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" required name="nama_lengkap_murid" placeholder="Masukkan Nama Lengkap Murid*">
+                            <input type="text" class="form-control" required name="nama_lengkap_murid" placeholder="Nama Lengkap Calon Siswa*">
                         </div>
                     </div>
     
@@ -27,14 +27,14 @@
                             <input type="text" class="form-control" required name="alamat_rumah" placeholder="Masukkan Alamat Rumah*">
                         </div>
                     </div>
-    
+
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">Nomor Telepon</label>
+                        <label class="col-sm-2 control-label">Tempat Lahir</label>
                         <div class="col-sm-10">
-                            <input type="tel" class="form-control" required name="nomor_telepon" placeholder="Masukkan Nomor Telepon*">
+                            <input type="text" class="form-control" required name="alamat_rumah" placeholder="Masukkan Tempat Lahir*">
                         </div>
                     </div>
-    
+
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Tanggal Lahir</label>
                         <div class="col-sm-10">
@@ -58,20 +58,28 @@
                             <input type="text" class="form-control" required name="nama_orang_tua" placeholder="Masukkan Nama Orang Tua/Wali*">
                         </div>
                     </div>
-    
+
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">Alamat Email</label>
+                        <label class="col-sm-2 control-label">Nomor Telepon Orang Tua</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" required name="email" placeholder="Masukkan Email Aktif*">
+                            <input type="tel" class="form-control" required name="nomor_telepon" placeholder="Masukkan Nomor Telepon Orang Tua*">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Tinggi Badan</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" required name="email" placeholder="Masukkan Tinggi Badan (CM)*">
                         </div>
                     </div>
     
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">Asal Sekolah</label>
+                        <label class="col-sm-2 control-label">Berat Badan</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" name="asal_sekolah" placeholder="Masukkan Asal Sekolah (jika ada)">
+                            <input type="number" class="form-control" name="asal_sekolah" placeholder="Masukkan Berat Badan (KG)">
                         </div>
                     </div>
+
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Unggah Foto</label>
                         <div class="col-sm-10">

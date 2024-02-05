@@ -82,23 +82,24 @@
     Register | PPDB SMK Negeri 1 Cikarang
 @endsection
 @section('content')
-<section class="form-pendaftaran margin-bottom-100">
+    <section class="form-pendaftaran margin-bottom-100">
 
-    <div class="container">
-        <div class="row">
+        <div class="container">
+            <div class="row">
 
-            <form method="POST" action="{{ route('register') }}">
-                @csrf
-                <h3>Pendaftaran User Baru</h3>
+                <form method="POST" action="{{ route('register') }}">
+                    @csrf
+                    <h3>Pendaftaran User Baru</h3>
 
-                <hr>
+                    <hr>
 
-                <div class="col-md-12">
+                    <div class="col-md-12">
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Nama Lengkap</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" required name="name" placeholder="Masukan Nama Lengkap Anda*">
+                                <input type="text" class="form-control" required name="name"
+                                    placeholder="Masukan Nama Lengkap Anda*">
                             </div>
                         </div>
 
@@ -106,33 +107,46 @@
                             <label class="col-sm-2 control-label">Email</label>
 
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" required name="email" placeholder="Masukan Email Aktif*">
+                                <input type="email" class="form-control" required name="email"
+                                    placeholder="Masukan Email Aktif*">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Password</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" required name="password" id="password" placeholder="Masukkan Password*">
+                                <input type="password" class="form-control" required name="password" id="password"
+                                    placeholder="Masukkan Password*">
                             </div>
                         </div>
+                        @error('password')
+                            <div class="form-group">
+                                <label class="col-sm-2">&nbsp;</label>
+                                <div class="col-sm-10">
+                                    <span class="invalid-feedback alert alert-danger" role="alert">
+                                        <strong>{{$message}}</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        @enderror
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Konfirmasi Password</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" required name="password_confirmation" id="password_confirmation" placeholder="Konfirmasi Password*">
+                                <input type="password" class="form-control" required name="password_confirmation"
+                                    id="password_confirmation" placeholder="Konfirmasi Password*">
                                 <span id='message'></span>
                             </div>
                         </div>
 
                         <button class="btn btn-daftar btn-lg btn-primary">Daftar</button>
 
-                </div>
+                    </div>
 
-            </form>
+                </form>
 
+            </div>
         </div>
-    </div>
 
-</section>
+    </section>
 @endsection

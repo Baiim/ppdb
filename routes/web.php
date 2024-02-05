@@ -13,13 +13,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/jadwal', [App\Http\Controllers\HomeController::class, 'jadwal'])->name('jadwal');
 Route::get('/prosedur', [App\Http\Controllers\HomeController::class, 'prosedur'])->name('prosedur');
 Auth::routes();
 
-
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/success', [App\Http\Controllers\HomeController::class, 'success'])->name('success');
 // Pendaftaran
 Route::get('/pendaftaran', [App\Http\Controllers\HomeController::class, 'pendaftar'])->name('pendaftar');
