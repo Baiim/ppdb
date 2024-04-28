@@ -47,7 +47,7 @@
                     <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a></li>
                     
                     @if (Auth::user()->is_admin === 1)
-                    <li><a href="{{ route('admin') }}">Dashboard</a></li>
+                    <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
                     @endif<!-- Form untuk logout menggunakan metode POST -->
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                         @csrf

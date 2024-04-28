@@ -32,5 +32,5 @@ Route::get('/pendaftar', [App\Http\Controllers\DashboardController::class, 'pend
 Route::get('/verifikasi/{id}', [DashboardController::class, 'ubahStatusVerifikasi'])->name('verifikasi.ubah');
 
 Route::get('/pengumuman', [App\Http\Controllers\HomeController::class, 'pengumuman'])->name('pengumuman');
-Route::get('/admin', [App\Http\Controllers\DashboardController::class, 'index'])->name('admin');
+Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
 
