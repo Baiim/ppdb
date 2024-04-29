@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('title')
-    Login | PPDB SMK Negeri 1 Cikarang
+    Login | PPDB SD Anugerah
 @endsection
 @section('content')
 <section class="login margin-bottom-50">

@@ -79,7 +79,7 @@
 
 @extends('layouts.main')
 @section('title')
-    Register | PPDB SMK Negeri 1 Cikarang
+    Register | PPDB SD Anugerah
 @endsection
 @section('content')
     <section class="form-pendaftaran margin-bottom-100">
