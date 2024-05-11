@@ -6,7 +6,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a data-scroll href="{{ route('home') }}" class="navbar-brand"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HNqfNJjMwNg5m5ooPILf56tnJzI5v0g7FcpQwmLB96ITXWEhgwiOGUyBtbI0HMlAdvA&usqp=CAU" class="img-circle" alt="Logo"></a>
+        <a data-scroll href="{{ route('home') }}" class="navbar-brand"><img src="{{asset('img/logo-sekolah.jpg')}}" class="img-circle" alt="Logo"></a>
         
 
     </div>

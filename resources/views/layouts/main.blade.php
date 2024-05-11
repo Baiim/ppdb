@@ -58,7 +58,7 @@
 
     <!-- Load Js Core Files -->
     @include('includes.script')
-
+    @stack('script-addon')
 </body>
 
 </html>

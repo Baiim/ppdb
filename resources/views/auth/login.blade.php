@@ -3,7 +3,7 @@
     Login | PPDB SD Anugerah
 @endsection
 @section('content')
-<section class="login margin-bottom-50">
+<section class="login margin-bottom-50" style="background-image: url('img/bg-sekolah.jpg'); background-size: cover;">
     <div class="container">
         <div class="row">
             <div class="card card-container">
@@ -36,6 +36,35 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+<div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="welcomeModalLabel">Selamat Datang di PPDB SD Anugerah</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>1. Sebelum mendaftar sebagai calon siswa, calon siswa diharapkan membuat akun Gmail dan password terlebih dahulu.</p>
+          <p>2. Klik "Daftar" untuk mengisi nama, email, password, dan konfirmasi password.</p>
+          <p>3. Setelah membuat akun, klik "Pendaftaran", lalu isi Form Pendaftaran. Setelah itu, klik "Daftar", sistem secara otomatis akan menyimpan form yang telah diisi.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </section>
-
 @endsection
+
+@push('script-addon')
+<script>
+    $(document).ready(function(){
+        $('#welcomeModal').modal('show');
+    });
+</script>
+@endpush

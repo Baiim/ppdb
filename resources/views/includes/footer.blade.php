@@ -26,5 +26,5 @@
 <hr>
 
 <div class="container  copyright">
-    <p>&copy; copright 2018. create by Zuhri. All Right Reserved.</p>
+    <p>&copy; copright 2024. Sistem ini dirancang oleh Mega S Dengak 311910130 Universitas Pelita Bangsa Fakultas Teknik Informatika. All Right Reserved.</p>
 </div>
